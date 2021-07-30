@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #357ec7;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}
+
+.sub-heading {
+  background-color: #b6b6b4;
+  color: grey;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+label {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.toPoint {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+input:disabled {
+  background-color: white;
+}
+
+select {
+  margin-top: 10px;
+}
+button {
+  cursor: pointer;
+}
+
+.buttonRight {
+  margin-right: 20px;
+}
+
+.buttonLeft {
+  position: absolute;
+  right: 2%;
+}
+
+.buttonDown {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.hint {
+  padding: 10px;
+}
